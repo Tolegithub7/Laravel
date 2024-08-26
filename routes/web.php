@@ -3,9 +3,12 @@
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
 use Pest\Support\View;
+use App\Models\Job;
 
 Route::get('/', function () {
-    return view('home');
+    $jobs = Job::all();
+    dd($jobs);
+    // return view('home');
 });
 Route::get('/jobs', function () {
     
