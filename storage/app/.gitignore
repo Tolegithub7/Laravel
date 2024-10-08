@@ -1,4 +1,7 @@
 *
+<<<<<<< HEAD
 !private/
+=======
+>>>>>>> 4c6ce5f80a45c9bd147fcbd3586ad4fefd204aa3
 !public/
 !.gitignore
