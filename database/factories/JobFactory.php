@@ -19,6 +19,8 @@ class JobFactory extends Factory
         return [
             'title' => fake()->jobTitle(),
             'salary' => fake()->randomNumber(4),
+            'location' => fake()->city(),
+            'age' => fake()->randomNumber()
             //
         ];
     }
