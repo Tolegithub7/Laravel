@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Job extends Model {
     protected $table = 'job_listings';
     protected $fillable = ['title', 'salary', 'location', 'age'];
+    
 
     // public static function all(): array {
     //     return [
