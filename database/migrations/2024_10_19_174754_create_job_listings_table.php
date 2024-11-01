@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('job_listings', function (Blueprint $table) {
             $table->id();
+            $table->unsignedInteger('employer_id');
             $table->string('title');
             $table->string('salary');
             $table->string('location');

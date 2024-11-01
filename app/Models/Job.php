@@ -12,6 +12,10 @@ class Job extends Model {
 
     protected $table = 'job_listings';
     protected $fillable = ['title', 'salary', 'location', 'age'];
+
+    public function employeer() {
+        return $this->belongsTo(Employeer::class);
+    }
     
 
     // public static function all(): array {
